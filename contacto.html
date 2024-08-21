@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="stylecontacto.css">
+</head>
+<body>
+    <div class="contact-wrapper">
+        <div class="contact-banner">
+            <h2>Déjanos un mensaje</h2>
+            
+        </div>
+        <div class="contact-form">
+            <h3 class="form-title">Contáctenos</h3>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Correo Electrónico*</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="asunto">Asunto*</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+                <div class="input-group">
+                    <label for="mensaje">Mensaje*</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <label for="required">* los campos son obligatorios</label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Envia mensaje</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

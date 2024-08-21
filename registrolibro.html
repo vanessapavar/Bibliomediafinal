@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro libros Bibliomedia</title>
+    <link rel="stylesheet" href="stylerlibro.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="banner">
+        <div class="wel_text">Bibliomedia</div>
+        <p class="para">Registro de libros</p>
+    </div>
+    <div class="form">
+        <h1 class="title">Formulario registro de libros</h1>
+        <form action="submit" method="get">
+            <div class="inp">
+                <input class="input" type="text" name="nombre" placeholder="Titulo del libro" required>   
+            </div>
+            <div class="inp">
+                <input class="input" type="text" name="formato" placeholder="Formato del libro" required>
+            </div>
+            <div class="inp">
+                <input class="input" type="text" name="autor" placeholder="Autor del libro" required>
+            </div>
+            <div class="inp">
+                <input class="input" type="text" name="codigo" placeholder="ISBN del libro" required>
+            </div>
+            <div class="inp">
+                <input class="input" type="text" name="editorial" placeholder="Editorial del libro" required>
+            </div>
+            <div class="inp">
+                <select class="input" name="año" required>
+                    <option value="">Año</option>
+                    <option value="año1">2022</option>
+                    <option value="año2">2023</option>
+                    <option value="año3">2024</option>
+                </select>
+            </div>
+            <div class="inp">
+                <select class="input" name="idioma" required>
+                    <option value="">Idioma</option>
+                    <option value="idioma1">Español</option>
+                    <option value="idioma2">Inglés</option>
+                    <option value="idioma3">Portugués</option>
+                </select>
+            </div>
+            <div class="inp">
+                <input class="input" type="text" name="paginas" placeholder="Nro de páginas" required>
+            </div>
+            <div class="inp">
+                <select class="input" name="categoria" required>
+                    <option value="">Categoría</option>
+                    <option value="categoria1">Romance</option>
+                    <option value="categoria2">Ficción</option>
+                    <option value="categoria3">Acción</option>
+                    <option value="categoria4">Misterio</option>
+                    <option value="categoria5">Ciencia ficción</option>
+                    <option value="categoria6">No ficción</option>
+                    <option value="categoria7">Fantasía</option>
+                </select>
+            </div>
+            <input id="alta" class="submit" type="submit" value="Registrar">
+        </form>
+    </div>
+</div>
+</body>
+</html>
